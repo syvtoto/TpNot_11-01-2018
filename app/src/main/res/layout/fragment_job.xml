@@ -6,7 +6,7 @@
              tools:context=".fragment.JobFragment"
              android:padding="5dp"
              android:layout_margin="5dp"
-             tools:background="#d9abab"
+             android:background="#d9abab"
              android:gravity="center">
 
     <androidx.recyclerview.widget.RecyclerView android:layout_width="match_parent"
