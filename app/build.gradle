@@ -36,6 +36,9 @@ dependencies {
     ext.anko_version = '0.10.8'
     implementation "org.jetbrains.anko:anko-commons:$anko_version"
 
+    //stylabletoast
+    implementation 'com.muddzdev:styleabletoast:2.2.1'
+
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
 
     // core

@@ -7,10 +7,12 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import com.example.thoma.tpnot_11_01_2019.R
 import com.example.thoma.tpnot_11_01_2019.fragment.JobFragment
 import com.example.thoma.tpnot_11_01_2019.fragment.SkillFragment
 import com.example.thoma.tpnot_11_01_2019.model.KotPref
+import com.muddzdev.styleabletoast.StyleableToast
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import org.jetbrains.anko.toast

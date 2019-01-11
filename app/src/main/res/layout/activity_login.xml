@@ -42,6 +42,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/CheckRemember"
             android:layout_gravity="center"
+            android:layout_marginTop="5dp"
 
            />
     <ImageButton
@@ -52,25 +53,27 @@
             android:id="@+id/btnFrench"
             android:text="@string/Francais"
             android:layout_gravity="center"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="200dp"
             android:src="@drawable/fr"
             android:background="@drawable/fr"
             android:scaleType="fitXY"
 
     />
+
     <ImageButton
 
 
             android:layout_width="60dip"
             android:layout_height="30dip"
             android:id="@+id/btnEnglish"
-            android:text="@string/Anglais"
+            android:text="@string/Francais"
             android:layout_gravity="center"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="8dp"
             android:src="@drawable/en"
             android:background="@drawable/en"
             android:scaleType="fitXY"
     />
+
 
 
 

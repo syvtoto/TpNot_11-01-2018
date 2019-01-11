@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.thoma.tpnot_11_01_2019.R
 import com.example.thoma.tpnot_11_01_2019.model.KotPref
+import com.muddzdev.styleabletoast.StyleableToast
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
@@ -14,17 +15,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+
         if(KotPref.name.toString().isNotEmpty()){
             editName.setText(KotPref.name.toString());
-        }
-
-
-        btnEnglish.setOnClickListener{
-
-        }
-        
-        btnFrench.setOnClickListener{
-
         }
 
 
