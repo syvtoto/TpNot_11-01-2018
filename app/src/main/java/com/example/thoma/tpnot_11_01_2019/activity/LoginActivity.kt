@@ -15,8 +15,11 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         if(KotPref.name.toString().isNotEmpty()){
-            editName.textKotPref.name.toString();
+            editName.setText(KotPref.name.toString());
         }
+
+        
+
 
 
         btnLogin.setOnClickListener {
