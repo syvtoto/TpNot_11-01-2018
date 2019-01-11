@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
 import com.example.thoma.tpnot_11_01_2019.R
+import com.example.thoma.tpnot_11_01_2019.fragment.JobFragment
+import com.example.thoma.tpnot_11_01_2019.fragment.SkillFragment
 import com.example.thoma.tpnot_11_01_2019.model.KotPref
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
@@ -61,27 +63,21 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_camera -> {
-                // Handle the camera action
+            R.id.nav_jobs -> {
+                supportActionBar?.title = getString(R.string.title_jobs)
+                replaceFragment(JobFragment())
             }
-            R.id.nav_gallery -> {
-
-            }
-            R.id.nav_slideshow -> {
-
-            }
-            R.id.nav_manage -> {
-
-            }
-            R.id.nav_share -> {
-
-            }
-            R.id.nav_send -> {
-
+            R.id.nav_skills -> {
+                supportActionBar?.title = getString(R.string.title_skills)
+                replaceFragment(SkillFragment())
             }
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
+    }
+
+    private fun replaceFragment(fragment: androidx.fragment.app.Fragment) {
+        supportFragmentManager.beginTransaction().replace(R.id.frameLayout, fragment).commit()
     }
 }

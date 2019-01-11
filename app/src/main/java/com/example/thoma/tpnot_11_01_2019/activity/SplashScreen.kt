@@ -1,10 +1,10 @@
-package com.example.thoma.tpnot_11_01_2019
+package com.example.thoma.tpnot_11_01_2019.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import com.example.thoma.tpnot_11_01_2019.activity.*
+import com.example.thoma.tpnot_11_01_2019.R
 
 import com.example.thoma.tpnot_11_01_2019.model.KotPref
 

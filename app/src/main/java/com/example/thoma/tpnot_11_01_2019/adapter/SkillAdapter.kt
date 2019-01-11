@@ -24,6 +24,10 @@ class SkillAdapter(private val skills: List<Skill>): RecyclerView.Adapter<SkillA
 
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         fun bindItems(skill: Skill) {
+
+            itemView.setOnClickListener {
+
+            }
             // TODO set la vue
 
         }

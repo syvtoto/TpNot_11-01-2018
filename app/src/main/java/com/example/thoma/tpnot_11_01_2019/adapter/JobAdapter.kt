@@ -25,6 +25,10 @@ class JobAdapter(private val jobs: List<Job>): RecyclerView.Adapter<JobAdapter.V
         fun bindItems(job: Job) {
             // TODO set la vue
 
+            itemView.setOnClickListener {
+
+            }
+
         }
     }
 }
