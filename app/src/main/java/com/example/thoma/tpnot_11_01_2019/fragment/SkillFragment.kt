@@ -9,14 +9,14 @@ import android.view.ViewGroup
 
 import com.example.thoma.tpnot_11_01_2019.R
 
-class JobFragment : Fragment() {
+class SkillFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_job, container, false)
+        return inflater.inflate(R.layout.fragment_skill, container, false)
     }
 
 
