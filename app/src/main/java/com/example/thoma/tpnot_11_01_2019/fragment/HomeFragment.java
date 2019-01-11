@@ -1,12 +1,13 @@
-package com.example.thoma.tpnot_11_01_2019;
+package com.example.thoma.tpnot_11_01_2019.fragment;
 
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import androidx.fragment.app.Fragment;
+import com.example.thoma.tpnot_11_01_2019.R;
 
 
 /**
