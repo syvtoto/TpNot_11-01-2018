@@ -15,23 +15,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         if(KotPref.name.toString().isNotEmpty()){
-            editName.setText(KotPref.name)
-        }
-
-
-
-
-
-        btnFrench.setOnClickListener {
-
-
-
-        }
-
-        btnEnglish.setOnClickListener {
-
-
-
+            editName.textKotPref.name.toString();
         }
 
 
