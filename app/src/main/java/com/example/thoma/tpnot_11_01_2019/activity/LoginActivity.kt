@@ -19,6 +19,22 @@ class LoginActivity : AppCompatActivity() {
         }
 
 
+
+
+
+        btnFrench.setOnClickListener {
+
+
+
+        }
+
+        btnEnglish.setOnClickListener {
+
+
+
+        }
+
+
         btnLogin.setOnClickListener {
 
             KotPref.name = editName.text.toString()

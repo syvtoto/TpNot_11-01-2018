@@ -7,16 +7,16 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="BIENVENUE">Bienvenue</string>
-    <string name="NOM">Nom</string>
-    <string name="MDP">Mot de passe</string>
-    <string name="SeSouvenir">Se souvenir de moi</string>
-    <string name="Connexion">Connexion</string>
-    <string name="Francais">Francais</string>
-    <string name="Anglais">Anglais</string>
+    <string name="BIENVENUE" translatable="false">Bienvenue</string>
+    <string name="NOM" translatable="false">Nom</string>
+    <string name="MDP" translatable="false">Mot de passe</string>
+    <string name="SeSouvenir" translatable="false">Se souvenir de moi</string>
+    <string name="Connexion" translatable="false">Connexion</string>
+    <string name="Francais" translatable="false">Francais</string>
+    <string name="Anglais" translatable="false">Anglais</string>
 
 
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 </resources>

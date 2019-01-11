@@ -67,8 +67,8 @@
             android:text="@string/Anglais"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:src="@drawable/Flag_of_the_United_Kingdom"
-            android:background="@drawable/Flag_of_the_United_Kingdom"
+            android:src="@drawable/en"
+            android:background="@drawable/en"
             android:scaleType="fitXY"
     />
 
