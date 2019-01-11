@@ -18,8 +18,14 @@ class LoginActivity : AppCompatActivity() {
             editName.setText(KotPref.name.toString());
         }
 
-        
 
+        btnEnglish.setOnClickListener{
+
+        }
+        
+        btnFrench.setOnClickListener{
+
+        }
 
 
         btnLogin.setOnClickListener {
