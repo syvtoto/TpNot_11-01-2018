@@ -14,6 +14,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/NOM"
             android:id="@+id/editName"
+            android:layout_marginTop="10dp"
 
     />
 
@@ -23,24 +24,54 @@
             android:hint="@string/MDP"
             android:id="@+id/editPassword"
             android:inputType="textPassword"
+            android:layout_marginTop="10dp"
     />
 
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnLogin"
-            android:text="LOGIN"
-            android:layout_gravity="center"/>
+            android:text="@string/Connexion"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+    />
 
     <CheckBox
-            android:text="CheckBox"
+            android:text="@string/SeSouvenir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/CheckRemember"
-            android:hint="@string/SeSouvenir"
             android:layout_gravity="center"
-            android:layout_marginLeft="30dp"
-           />
 
+           />
+    <ImageButton
+
+
+            android:layout_width="60dip"
+            android:layout_height="30dip"
+            android:id="@+id/btnFrench"
+            android:text="@string/Francais"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/fr"
+            android:background="@drawable/fr"
+            android:scaleType="fitXY"
+
+    />
+    <ImageButton
+
+
+            android:layout_width="60dip"
+            android:layout_height="30dip"
+            android:id="@+id/btnEnglish"
+            android:text="@string/Anglais"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/Flag_of_the_United_Kingdom"
+            android:background="@drawable/Flag_of_the_United_Kingdom"
+            android:scaleType="fitXY"
+    />
+
+ 
 
 </LinearLayout>

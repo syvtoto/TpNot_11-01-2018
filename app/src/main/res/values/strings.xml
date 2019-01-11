@@ -11,6 +11,10 @@
     <string name="NOM">Nom</string>
     <string name="MDP">Mot de passe</string>
     <string name="SeSouvenir">Se souvenir de moi</string>
+    <string name="Connexion">Connexion</string>
+    <string name="Francais">Francais</string>
+    <string name="Anglais">Anglais</string>
+
 
 
     <!-- TODO: Remove or change this placeholder text -->

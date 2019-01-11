@@ -14,11 +14,23 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        if(KotPref.name.toString().isNotEmpty()){
+            editName.setText(KotPref.name)
+        }
+
+
         btnLogin.setOnClickListener {
 
             KotPref.name = editName.text.toString()
-            if(true){
+            if(editName.text.toString().isNotEmpty()){
                 KotPref.password = editPassword.text.toString()
+            }
+
+            if(CheckRemember.isChecked){
+                KotPref.isConnected = true
+            }
+            else{
+                KotPref.isConnected = false
             }
 
             val intent = Intent(applicationContext, MainActivity::class.java)
