@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.ConstraintLayout
+<LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".activity.LoginActivity">
+        tools:context=".activity.LoginActivity"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.ConstraintLayout>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/NOM"
+            android:id="@+id/editName"
+
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/MDP"
+            android:id="@+id/editPassword"
+            android:inputType="textPassword"
+    />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogin"
+            android:text="LOGIN"
+            android:layout_gravity="center"/>
+
+    <CheckBox
+            android:text="CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CheckRemember"
+            android:hint="@string/SeSouvenir"
+            android:layout_gravity="center"/>/>
+
+
+</LinearLayout>

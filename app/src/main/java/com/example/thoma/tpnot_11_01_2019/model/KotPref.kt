@@ -4,5 +4,6 @@ import com.chibatching.kotpref.KotprefModel
 
 object KotPref: KotprefModel() {
     var name by stringPref(default = "")
+    var password by stringPref(default = "")
     var isConnected by booleanPref(default = false)
 }

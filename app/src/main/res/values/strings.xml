@@ -7,6 +7,12 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <string name="BIENVENUE">Bienvenue</string>
+    <string name="NOM">Nom</string>
+    <string name="MDP">Mot de passe</string>
+    <string name="SeSouvenir">Se souvenir de moi</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
